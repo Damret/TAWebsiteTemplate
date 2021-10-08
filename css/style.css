@@ -1,0 +1,368 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,600;1,900&display=swap');
+/* Fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid {
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+.jumboText>.tombol {
+    margin-top: 20px;
+}
+
+.tombol-norm {
+    width: 145px;
+    height: 65px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-place .tombol-norm:last-child {
+    background-color: #FF4646;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.button-place .tombol-norm:first-child:hover {
+    background-color: #FF4646;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.button-place .tombol-norm:last-child:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+.button-place .tombol-norm:first-child{
+    margin-right: 40px;
+}
+
+
+.button-place {
+    display: flex;
+    margin-top: 45px;
+}
+
+
+.jumbotron {
+    background-color: #FF4646;
+    height: 640px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .display-4 {
+    font-weight: 200;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: left;
+}
+
+.jumbotron .display-4  {
+    font-weight: 700;
+}
+
+.partner {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+
+.features {
+    height: 640px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.features .display-4 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.features .display-4:first-child {
+    letter-spacing: 15px;
+    margin-top: 44px;
+}
+
+.features .display-4:nth-child(2) {
+    color: #FF4646;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 36px;
+}
+
+.cards {
+    margin-top: 80px;
+}
+
+.card {
+    height: 250px;
+    background-color: #FF4646;
+    color: #fff;
+}
+
+.card h5 {
+    margin-top: .75rem;
+}
+
+.card i {
+    font-size: 25px;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.demo {
+    height: 640px;
+    background-color: #FF4646;
+    padding-bottom: 0;
+}
+
+.demo .row {
+    height: 100%;
+}
+
+.demo .container {
+    height: 100%;
+}
+
+.demo .display-4 {
+    font-weight: 200;
+    font-size: 42px;
+    color: #fff;
+    text-align: left;
+}
+
+.demo span {
+    color: #000;
+    font-weight: 600;
+}
+
+.form-control{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+}
+
+.demo .tombol-norm {
+    width: 125px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    background-color: #000 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.testi {
+    height: 400px;
+    background-color: #F2F2F2;
+}
+
+.blockquote p {
+    font-size: 24px;
+}
+
+.blockquote i {
+    font-size: 30px;
+}
+
+footer {
+    height: 270px;
+    background-color: #FF4646;
+    color: #fff;
+}
+
+.footer-left .display-4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+}
+
+.footer-left p {
+    max-width: 395px;
+    font-size: 36px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-right p {
+    margin-left: 46px;
+}
+
+.social i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #fff;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+ }
+
+ @media (max-width :662px) {
+    .jumbotron {
+        height: 400px;
+    } 
+    
+    .jumbotron .display-4 {
+         font-size: 24px;
+     }
+
+     .jumbotron p {
+         font-size: 10px;
+     }
+
+     .tombol-norm {
+        width: 45px;
+        height: 25px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5px;
+    }
+
+    .button-place {
+        margin-top: 0;
+    }
+
+    .button-place .tombol-norm:first-child{
+        margin-right: 10px;
+    }
+
+    .card {
+        height: auto;
+    }
+
+    .card i {
+        font-size: 15px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-text {
+        font-size: 10px;
+    }
+
+
+    .demo {
+        height: 100%;
+    }
+
+    .demo .display-4 {
+        font-size: 20px;
+    }
+
+    .form-control {
+        width: 100px;
+        height: 20px;
+    }
+
+    .demo .tombol-norm {
+        width: 50px;
+        height: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-left p {
+        font-size: 18px;
+    }
+
+    .social i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    .footer-right a {
+        font-size: 10px;
+        display: inline-block;
+        
+    }
+
+    .footer-right p {
+        margin-left: 23px;
+        font-size: 14px;
+    }
+ }
